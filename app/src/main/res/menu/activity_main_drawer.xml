@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_programming"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Programming" />
+        <item
+            android:id="@+id/nav_networking"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Networking" />
+        <item
+            android:id="@+id/nav_database"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Database" />
+        <item
+            android:id="@+id/nav_english"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="English" />
+        <item
+            android:id="@+id/nav_sma"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="SMA" />
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Information" />
+    </group>
+
+    <item android:title="Lainnya">
+        <menu>
+            <item
+                android:id="@+id/nav_tentang"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Tentang" />
+            <item
+                android:id="@+id/nav_keluar"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Keluar" />
+        </menu>
+    </item>
+
+</menu>
